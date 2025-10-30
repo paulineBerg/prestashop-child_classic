@@ -1,0 +1,18 @@
+{shop_url}
+
+Bonjour {firstname} {lastname},
+
+
+Le suivi Colis m'indique que votre commande a été livrée.
+
+Merci de bien vouloir m'en confirmer la réception.
+
+J'espère que cet envoi corresponds bien à votre attente.
+
+Et n'hésitez pas à revenir vers moi pour toute autre demande.
+
+Bien à vous.
+
+[{shop_name}]({shop_url})
+
+
