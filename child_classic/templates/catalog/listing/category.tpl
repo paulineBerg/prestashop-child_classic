@@ -22,9 +22,7 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
-{extends file=$layout}
-
-{include file='_partials/init-grid.tpl'}
+{extends file='catalog/listing/product-list.tpl'}
 
 {block name='left_column'}{/block}
 {block name='right_column'}{/block}
@@ -37,15 +35,11 @@
   {hook h="displayTopColumn"}
 {/capture}
 
-{block name='head_microdata_special'}
-  {include file='_partials/microdata/product-list-jsonld.tpl' listing=$listing}
-{/block}
-
 {block name='content'}
   <section id="main">
 
     {block name='product_list_header'}
-      <h1 id="js-product-list-header" class="h2">{$listing.label}</h1>
+      {include file='catalog/_partials/category-header.tpl' listing=$listing category=$category}
     {/block}
 
     {block name='subcategory_list'}
@@ -59,11 +53,9 @@
 
         {block name='product_list_top'}
           {include file='catalog/_partials/products-top.tpl' listing=$listing}
-
           {if $categoryHeaderContent|trim neq ''}
             {$categoryHeaderContent nofilter}
           {/if}
-
           {if $categoryTopColumnContent|trim neq '' || !empty($listing.rendered_facets)}
             <div class="category-top-filters">
               {if $categoryTopColumnContent|trim neq ''}
@@ -85,7 +77,7 @@
         {/block}
 
         {block name='product_list'}
-          {include file='catalog/_partials/products.tpl' listing=$listing productClass=$productGridClass}
+          {include file='catalog/_partials/products.tpl' listing=$listing productClass="col-xs-12 col-sm-6 col-xl-4"}
         {/block}
 
         {block name='product_list_bottom'}
@@ -108,7 +100,9 @@
       {/if}
     </section>
 
-    {block name='product_list_footer'}{/block}
+    {block name='product_list_footer'}
+      {include file='catalog/_partials/category-footer.tpl' listing=$listing category=$category}
+    {/block}
 
     {hook h="displayFooterCategory"}
 

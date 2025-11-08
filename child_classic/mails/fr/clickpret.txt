@@ -1,0 +1,13 @@
+{shop_url}
+
+Bonjour {firstname} {lastname},
+
+
+Votre commande est prête pour le click and collect.
+Merci de prendre contact afin de convenir d'un rendez-vous.
+
+Bien à vous.
+
+[{shop_name}]({shop_url})
+
+

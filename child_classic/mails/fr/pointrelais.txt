@@ -1,0 +1,13 @@
+{shop_url}
+
+Bonjour {firstname} {lastname},
+
+Le suivi Colis m'indique que votre commande {order_name} est bien arrivée au point relais de votre choix.
+
+Bonne journée et ;
+
+A bientôt.
+
+[{shop_name}]({shop_url})
+
+
