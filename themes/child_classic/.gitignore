@@ -1,0 +1,15 @@
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Node / build (si tu build du front)
+node_modules/
+dist/
+build/
+*.log
+
+# Caches éventuels
+/cache/
+*.cache
+assets/cache/

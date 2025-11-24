@@ -1,0 +1,20 @@
+{shop_url}
+
+Bonjour {firstname} {lastname},
+
+
+Suite à votre première commande chez Bouly&Cailloux, j'ai le plaisir de vous annoncer que dorénavant vous bénéficierez automatiquement de remises exceptionnelles : de 5% à 20% selon le montant de votre panier.
+
+Fini les codes que l'on oublie, les courriels qui vont dans les spams etc...
+
+Vous retrouverez vos différentes remises lors de la validation de votre panier. 
+Effectivement, pour que le programme vous reconnaisse et vous affiche vos réductions, n'oubliez-pas de vous connecter à votre compte client en premier.
+
+Et n'hésitez pas à revenir vers moi pour un bijou personnalisé.
+
+Bien à vous.
+
+
+[{shop_name}]({shop_url})
+
+

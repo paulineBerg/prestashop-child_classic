@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="themes/child_classic/templates/catalog/_partials/filters-modal.tpl" source-language="en" target-language="fr" datatype="plaintext">
+    <body>
+      <trans-unit id="1f2968e157cd41346ac37b757ea50c9c" approved="yes">
+        <source>Close filters</source>
+        <target state="final">Fermer les filtres</target>
+        <note>Line: 10</note>
+      </trans-unit>
+      <trans-unit id="0de9d09a36e820f9da7e87ab3678dd12" approved="yes">
+        <source>Show products</source>
+        <target state="final">Afficher les produits</target>
+        <note>Line: 34</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

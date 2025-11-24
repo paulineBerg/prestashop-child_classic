@@ -1,0 +1,14 @@
+parent: classic
+name: child_classic
+display_name: Child theme of classic's theme v2.1.3
+version: 1.0.0
+assets:
+  use_parent_assets: false
+  js:
+    all:
+      - id: keep-filters-position
+        path: assets/js/keep-filters-position.js
+        priority: 90
+      - id: filters-modal
+        path: assets/js/filter-modal.js
+        priority: 95

@@ -1,0 +1,18 @@
+
+{shop_url}
+
+Hello {firstname} {lastname},
+
+
+Parcel tracking tells me that your order has been delivered.
+
+Please confirm receipt for me.
+
+I hope the jewelry meets your expectations.
+
+And don't hesitate to come back to me for any other requests.
+
+Yours truly.
+
+[{shop_name}]({shop_url})
+
